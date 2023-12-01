@@ -1,0 +1,12 @@
+# Write a Python script to merge two Python dictionaries
+
+
+
+d1 = {'a': 1, 'b': 2}
+
+d2 = {'x': 3, 'y': 4}
+
+d = d1.copy()
+d.update(d2)
+print(d) 
+
